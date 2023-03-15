@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping pong Project</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div id="pingPongDiv">
+        <h1>Welcome to my game of Ping Pong</h1>
+        <img src="pingPongPic.jpg" alt="ping Pong Paddle">
+        <div id="scoreSelector">
+                    <label for="pet-select">Max score:</label>
+        <select name="score" id="score-select">
+            <option value="Unselected">--Please choose a max score--</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="10">10</option>
+        </select>
+
+        </div>
+        <p id="score"><b> <span>0</span> to <span>0</span> </b></p>
+        <p id="scoreInstructions">Press the buttons to keep score</p>
+        <div id="scoreChangerDiv">
+            <button id="player1Score">Player 1+</button>
+            <button id="player2Score">Player 2+</button>
+            <button id="resetButton">Reset</button>
+        </div>
+        <a id="link" href="https://jevonthompsonx.github.io/WebDevJev/">Please check out my other projects</a>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
