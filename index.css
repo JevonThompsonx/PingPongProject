@@ -36,6 +36,7 @@ button:nth-of-type(3) {
 }
 
 #link {
+	margin-top: 2vh;
 	color: #3A1078;
 }
 #link:hover {
