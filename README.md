@@ -1,7 +1,8 @@
-# PingPongProject 🏓
+# [PingPongProject 🏓](https://jevonthompsonx.github.io/PingPongProject/)
 
  A simple game of Ping pong using <img title='Javascript logo' src='./javascript-logo.svg' style='height:20px; width:20px'>
  to keep score
+
 ## Featues  
 
 - Bootstrap styling  
