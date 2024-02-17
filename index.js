@@ -41,7 +41,7 @@ p1Score.addEventListener('click', function (e) {
     score.innerHTML = ` <b>${(p1ScoreUpdater += 1)} to ${p2ScoreUpdater}</b> `;
     valueGrabber();
     if (p1ScoreUpdater === maxScoreComparative) {
-        scoreInstructions.textContent = `Player 1 WINS WHOOOOO`
+        scoreInstructions.textContent = `Player 1 WINS WOOOOOO`
         score.innerHTML = ` <b style = 'color:green'> ${p1ScoreUpdater} </b> to <b style = 'color:red' >${p2ScoreUpdater}</b> `;
         buttonsDip()
     }
@@ -50,7 +50,7 @@ p2Score.addEventListener('click', function (e) {
     score.innerHTML = `<b> ${(p1ScoreUpdater)} to ${p2ScoreUpdater +=1} </b>`;
     valueGrabber();
     if (p2ScoreUpdater === maxScoreComparative) {
-        scoreInstructions.textContent = `Player 2 WINS WHOOOOO`
+        scoreInstructions.textContent = `Player 2 WINS WOOOOOO`
                 score.innerHTML = ` <b style = 'color:red'> ${p1ScoreUpdater} </b> to <b style = 'color:green' >${p2ScoreUpdater}</b> `;
 
         buttonsDip()
